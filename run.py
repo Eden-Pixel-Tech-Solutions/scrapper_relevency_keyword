@@ -29,6 +29,10 @@ import re
 import signal
 import sys
 import time
+import faulthandler
+
+faulthandler.enable()
+
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from typing import List, Tuple, Dict, Any, Optional
@@ -42,7 +46,7 @@ from playwright.async_api import async_playwright
 # ---------------------------
 BASE_URL = "https://bidplus.gem.gov.in"
 QUEUE_MAXSIZE = 20000
-BATCH_SIZE = 500
+BATCH_SIZE = 10
 BATCH_TIMEOUT = 5.0  # seconds
 CSV_SNAPSHOT_EVERY = 600  # seconds
 LOG_FILE = "realtime_scraper.log"
@@ -59,6 +63,7 @@ DB_CONFIG = {
     "autocommit": False,
     "charset": "utf8mb4",
     "use_unicode": True,
+    "use_pure": True,  # Force pure Python implementation to avoid C-extension conflicts
 }
 
 # Model / file paths (allow overrides)
