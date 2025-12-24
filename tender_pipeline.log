@@ -11190,3 +11190,550 @@ KeyboardInterrupt
 2025-12-14 03:00:10,776 [INFO] Batch complete. Total=20 Success=16 Failed=4
 2025-12-14 03:00:10,776 [INFO] Shutdown detected after sleep - breaking
 2025-12-14 03:00:10,776 [INFO] Pipeline exiting cleanly.
+2025-12-17 12:30:19,062 [INFO] Starting tender pipeline. workers=5 fetch_limit=20
+2025-12-17 12:30:19,257 [INFO] Fetched 20 pending tenders; scheduling up to 5 worker threads
+2025-12-17 12:30:19,258 [INFO] [W1] Starting job for GEM/2025/B/6881227
+2025-12-17 12:30:19,260 [INFO] [W2] Starting job for GEM/2025/B/6994590
+2025-12-17 12:30:19,262 [INFO] [W3] Starting job for GEM/2025/B/6944906
+2025-12-17 12:30:19,263 [INFO] [W4] Starting job for GEM/2025/B/6849042
+2025-12-17 12:30:19,263 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8577308
+2025-12-17 12:30:19,264 [INFO] [W5] Starting job for GEM/2025/B/6938502
+2025-12-17 12:30:19,265 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8706419
+2025-12-17 12:30:19,267 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8649686
+2025-12-17 12:30:19,269 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8540365
+2025-12-17 12:30:19,270 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8642485
+2025-12-17 12:30:20,214 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8706419 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6994590.pdf (size=96955)
+2025-12-17 12:30:20,214 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8540365 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6849042.pdf (size=426888)
+2025-12-17 12:30:20,245 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-17 12:30:20,247 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-17 12:30:20,288 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8577308 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6881227.pdf (size=135373)
+2025-12-17 12:30:20,309 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-17 12:30:20,417 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8649686 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6944906.pdf (size=110134)
+2025-12-17 12:30:20,431 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-17 12:30:20,686 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8642485 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6938502.pdf (size=100954)
+2025-12-17 12:30:20,701 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-17 12:30:37,270 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:30:37,291 [INFO] DB saved for GEM/2025/B/6994590
+2025-12-17 12:30:37,293 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6994590.pdf
+2025-12-17 12:30:37,295 [INFO] [W2] Completed job for GEM/2025/B/6994590 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6994590.json
+2025-12-17 12:30:37,296 [INFO] [W1] Starting job for GEM/2025/B/6945901
+2025-12-17 12:30:37,296 [INFO] Job finished: bid=GEM/2025/B/6994590 worker=2 status=True
+2025-12-17 12:30:37,297 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8650844
+2025-12-17 12:30:37,449 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:30:37,471 [INFO] DB saved for GEM/2025/B/6938502
+2025-12-17 12:30:37,473 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6938502.pdf
+2025-12-17 12:30:37,474 [INFO] [W5] Completed job for GEM/2025/B/6938502 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6938502.json
+2025-12-17 12:30:37,475 [INFO] [W2] Starting job for GEM/2025/B/6953815
+2025-12-17 12:30:37,475 [INFO] Job finished: bid=GEM/2025/B/6938502 worker=5 status=True
+2025-12-17 12:30:37,476 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8660123
+2025-12-17 12:30:37,997 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8650844 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6945901.pdf (size=124492)
+2025-12-17 12:30:38,018 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-17 12:30:38,037 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:30:38,054 [INFO] DB saved for GEM/2025/B/6944906
+2025-12-17 12:30:38,055 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6944906.pdf
+2025-12-17 12:30:38,057 [INFO] [W3] Completed job for GEM/2025/B/6944906 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6944906.json
+2025-12-17 12:30:38,058 [INFO] [W3] Starting job for GEM/2025/B/6810687
+2025-12-17 12:30:38,058 [INFO] Job finished: bid=GEM/2025/B/6944906 worker=3 status=True
+2025-12-17 12:30:38,059 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8496402
+2025-12-17 12:30:38,206 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8660123 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6953815.pdf (size=129888)
+2025-12-17 12:30:38,222 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-17 12:30:38,952 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8496402 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6810687.pdf (size=193430)
+2025-12-17 12:30:38,971 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-17 12:30:39,917 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:30:39,939 [INFO] DB saved for GEM/2025/B/6881227
+2025-12-17 12:30:39,940 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6881227.pdf
+2025-12-17 12:30:39,940 [INFO] [W1] Completed job for GEM/2025/B/6881227 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6881227.json
+2025-12-17 12:30:39,942 [INFO] [W4] Starting job for GEM/2025/B/6938743
+2025-12-17 12:30:39,943 [INFO] Job finished: bid=GEM/2025/B/6881227 worker=1 status=True
+2025-12-17 12:30:39,945 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8642769
+2025-12-17 12:30:40,063 [INFO] [W1] Extractor finished. stdout len=0 stderr len=1280
+2025-12-17 12:30:40,064 [WARNING] [W1] Extractor produced no JSON files in D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1
+2025-12-17 12:30:40,064 [ERROR] [W1] Extractor failed for D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6945901.pdf
+2025-12-17 12:30:40,065 [INFO] [W5] Starting job for GEM/2025/B/6773627
+2025-12-17 12:30:40,065 [INFO] Job finished: bid=GEM/2025/B/6945901 worker=1 status=False
+2025-12-17 12:30:40,066 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8454261
+2025-12-17 12:30:40,877 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8642769 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6938743.pdf (size=103166)
+2025-12-17 12:30:40,895 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-17 12:30:41,063 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8454261 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6773627.pdf (size=132045)
+2025-12-17 12:30:41,082 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-17 12:30:49,434 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:30:49,454 [INFO] DB saved for GEM/2025/B/6953815
+2025-12-17 12:30:49,458 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6953815.pdf
+2025-12-17 12:30:49,460 [INFO] [W2] Completed job for GEM/2025/B/6953815 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6953815.json
+2025-12-17 12:30:49,462 [INFO] [W1] Starting job for GEM/2025/B/6808484
+2025-12-17 12:30:49,463 [INFO] Job finished: bid=GEM/2025/B/6953815 worker=2 status=True
+2025-12-17 12:30:49,465 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8493662
+2025-12-17 12:30:50,685 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8493662 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6808484.pdf (size=145182)
+2025-12-17 12:30:50,711 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-17 12:30:54,329 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:30:54,355 [INFO] DB saved for GEM/2025/B/6773627
+2025-12-17 12:30:54,357 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6773627.pdf
+2025-12-17 12:30:54,359 [INFO] [W5] Completed job for GEM/2025/B/6773627 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6773627.json
+2025-12-17 12:30:54,361 [INFO] [W2] Starting job for GEM/2025/B/6706696
+2025-12-17 12:30:54,362 [INFO] Job finished: bid=GEM/2025/B/6773627 worker=5 status=True
+2025-12-17 12:30:54,363 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8377400
+2025-12-17 12:30:55,133 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8377400 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6706696.pdf (size=141075)
+2025-12-17 12:30:55,163 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-17 12:30:55,236 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:30:55,260 [INFO] DB saved for GEM/2025/B/6810687
+2025-12-17 12:30:55,263 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6810687.pdf
+2025-12-17 12:30:55,264 [INFO] [W3] Completed job for GEM/2025/B/6810687 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6810687.json
+2025-12-17 12:30:55,265 [INFO] [W3] Starting job for GEM/2025/B/6971709
+2025-12-17 12:30:55,266 [INFO] Job finished: bid=GEM/2025/B/6810687 worker=3 status=True
+2025-12-17 12:30:55,271 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8680135
+2025-12-17 12:30:55,900 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8680135 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6971709.pdf (size=113847)
+2025-12-17 12:30:55,941 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-17 12:31:01,846 [INFO] [W4] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:31:01,862 [INFO] DB saved for GEM/2025/B/6849042
+2025-12-17 12:31:01,865 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6849042.pdf
+2025-12-17 12:31:01,866 [INFO] [W4] Completed job for GEM/2025/B/6849042 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6849042.json
+2025-12-17 12:31:01,870 [INFO] [W4] Starting job for GEM/2025/B/6980754
+2025-12-17 12:31:01,870 [INFO] Job finished: bid=GEM/2025/B/6849042 worker=4 status=True
+2025-12-17 12:31:01,873 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8691170
+2025-12-17 12:31:02,788 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8691170 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6980754.pdf (size=107421)
+2025-12-17 12:31:02,819 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-17 12:31:08,060 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:31:08,092 [INFO] DB saved for GEM/2025/B/6808484
+2025-12-17 12:31:08,094 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6808484.pdf
+2025-12-17 12:31:08,097 [INFO] [W1] Completed job for GEM/2025/B/6808484 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6808484.json
+2025-12-17 12:31:08,101 [INFO] [W5] Starting job for GEM/2025/B/6945849
+2025-12-17 12:31:08,101 [INFO] Job finished: bid=GEM/2025/B/6808484 worker=1 status=True
+2025-12-17 12:31:08,107 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8650787
+2025-12-17 12:31:08,580 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:31:08,601 [INFO] DB saved for GEM/2025/B/6971709
+2025-12-17 12:31:08,603 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6971709.pdf
+2025-12-17 12:31:08,604 [INFO] [W3] Completed job for GEM/2025/B/6971709 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6971709.json
+2025-12-17 12:31:08,604 [INFO] [W1] Starting job for GEM/2025/B/6921531
+2025-12-17 12:31:08,605 [INFO] Job finished: bid=GEM/2025/B/6971709 worker=3 status=True
+2025-12-17 12:31:08,606 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8623033
+2025-12-17 12:31:09,395 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8623033 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6921531.pdf (size=97829)
+2025-12-17 12:31:09,396 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8650787 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6945849.pdf (size=180007)
+2025-12-17 12:31:09,425 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-17 12:31:09,428 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-17 12:31:10,331 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:31:10,355 [INFO] DB saved for GEM/2025/B/6706696
+2025-12-17 12:31:10,359 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6706696.pdf
+2025-12-17 12:31:10,361 [INFO] [W2] Completed job for GEM/2025/B/6706696 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6706696.json
+2025-12-17 12:31:10,369 [INFO] [W2] Starting job for GEM/2025/B/6953346
+2025-12-17 12:31:10,369 [INFO] Job finished: bid=GEM/2025/B/6706696 worker=2 status=True
+2025-12-17 12:31:10,377 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8659555
+2025-12-17 12:31:11,176 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8659555 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6953346.pdf (size=118816)
+2025-12-17 12:31:11,213 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-17 12:31:19,874 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:31:19,901 [INFO] DB saved for GEM/2025/B/6921531
+2025-12-17 12:31:19,903 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6921531.pdf
+2025-12-17 12:31:19,905 [INFO] [W1] Completed job for GEM/2025/B/6921531 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6921531.json
+2025-12-17 12:31:19,906 [INFO] [W3] Starting job for GEM/2025/B/6943438
+2025-12-17 12:31:19,906 [INFO] Job finished: bid=GEM/2025/B/6921531 worker=1 status=True
+2025-12-17 12:31:19,911 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8648065
+2025-12-17 12:31:20,963 [INFO] [W4] Extractor finished. stdout len=0 stderr len=960
+2025-12-17 12:31:20,982 [INFO] DB saved for GEM/2025/B/6938743
+2025-12-17 12:31:20,985 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6938743.pdf
+2025-12-17 12:31:20,986 [INFO] [W4] Completed job for GEM/2025/B/6938743 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6938743.json
+2025-12-17 12:31:20,987 [INFO] [W4] Starting job for GEM/2025/B/6906439
+2025-12-17 12:31:20,987 [INFO] Job finished: bid=GEM/2025/B/6938743 worker=4 status=True
+2025-12-17 12:31:20,990 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8606022
+2025-12-17 12:31:21,120 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8648065 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6943438.pdf (size=181752)
+2025-12-17 12:31:21,160 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-17 12:31:21,731 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8606022 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6906439.pdf (size=99037)
+2025-12-17 12:31:21,761 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-17 12:31:25,488 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:31:25,507 [INFO] DB saved for GEM/2025/B/6953346
+2025-12-17 12:31:25,508 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6953346.pdf
+2025-12-17 12:31:25,510 [INFO] [W2] Completed job for GEM/2025/B/6953346 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6953346.json
+2025-12-17 12:31:25,514 [INFO] [W5] Starting job for GEM/2025/B/6793906
+2025-12-17 12:31:25,514 [INFO] Job finished: bid=GEM/2025/B/6953346 worker=2 status=True
+2025-12-17 12:31:25,517 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8477414
+2025-12-17 12:31:26,341 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8477414 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6793906.pdf (size=141681)
+2025-12-17 12:31:26,386 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-17 12:31:32,055 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:31:32,075 [INFO] DB saved for GEM/2025/B/6945849
+2025-12-17 12:31:32,077 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6945849.pdf
+2025-12-17 12:31:32,079 [INFO] [W5] Completed job for GEM/2025/B/6945849 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6945849.json
+2025-12-17 12:31:32,086 [INFO] Job finished: bid=GEM/2025/B/6945849 worker=5 status=True
+2025-12-17 12:31:39,517 [INFO] [W5] Extractor finished. stdout len=0 stderr len=960
+2025-12-17 12:31:39,538 [INFO] DB saved for GEM/2025/B/6793906
+2025-12-17 12:31:39,540 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6793906.pdf
+2025-12-17 12:31:39,541 [INFO] [W5] Completed job for GEM/2025/B/6793906 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6793906.json
+2025-12-17 12:31:39,543 [INFO] Job finished: bid=GEM/2025/B/6793906 worker=5 status=True
+2025-12-17 12:31:41,366 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:31:41,381 [INFO] DB saved for GEM/2025/B/6943438
+2025-12-17 12:31:41,383 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6943438.pdf
+2025-12-17 12:31:41,384 [INFO] [W3] Completed job for GEM/2025/B/6943438 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6943438.json
+2025-12-17 12:31:41,385 [INFO] Job finished: bid=GEM/2025/B/6943438 worker=3 status=True
+2025-12-17 12:31:41,945 [INFO] [W4] Extractor finished. stdout len=0 stderr len=960
+2025-12-17 12:31:41,961 [INFO] DB saved for GEM/2025/B/6980754
+2025-12-17 12:31:41,962 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6980754.pdf
+2025-12-17 12:31:41,962 [INFO] [W4] Completed job for GEM/2025/B/6980754 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6980754.json
+2025-12-17 12:31:41,964 [INFO] Job finished: bid=GEM/2025/B/6980754 worker=4 status=True
+2025-12-17 12:31:56,918 [INFO] [W4] Extractor finished. stdout len=0 stderr len=960
+2025-12-17 12:31:56,940 [INFO] DB saved for GEM/2025/B/6906439
+2025-12-17 12:31:56,941 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6906439.pdf
+2025-12-17 12:31:56,942 [INFO] [W4] Completed job for GEM/2025/B/6906439 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6906439.json
+2025-12-17 12:31:56,944 [INFO] Job finished: bid=GEM/2025/B/6906439 worker=4 status=True
+2025-12-17 12:31:56,945 [INFO] Batch complete. Total=20 Success=19 Failed=1
+2025-12-17 12:32:57,564 [INFO] Fetched 20 pending tenders; scheduling up to 5 worker threads
+2025-12-17 12:32:57,567 [INFO] [W1] Starting job for GEM/2025/B/6945901
+2025-12-17 12:32:57,568 [INFO] [W2] Starting job for GEM/2025/B/6903953
+2025-12-17 12:32:57,570 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8650844
+2025-12-17 12:32:57,570 [INFO] [W3] Starting job for GEM/2025/B/6759971
+2025-12-17 12:32:57,571 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8603291
+2025-12-17 12:32:57,571 [INFO] [W4] Starting job for GEM/2025/B/6979848
+2025-12-17 12:32:57,574 [INFO] [W5] Starting job for GEM/2025/B/6980039
+2025-12-17 12:32:57,579 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8438869
+2025-12-17 12:32:57,584 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8690142
+2025-12-17 12:32:57,585 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8690356
+2025-12-17 12:32:58,094 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8650844 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6945901.pdf (size=124492)
+2025-12-17 12:32:58,144 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-17 12:32:58,239 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8603291 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6903953.pdf (size=100939)
+2025-12-17 12:32:58,265 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-17 12:32:58,306 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8438869 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6759971.pdf (size=110712)
+2025-12-17 12:32:58,330 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8690356 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6980039.pdf (size=111955)
+2025-12-17 12:32:58,335 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-17 12:32:58,356 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-17 12:32:58,831 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8690142 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6979848.pdf (size=113597)
+2025-12-17 12:32:58,871 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-17 12:33:09,332 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:09,351 [INFO] DB saved for GEM/2025/B/6903953
+2025-12-17 12:33:09,352 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6903953.pdf
+2025-12-17 12:33:09,355 [INFO] [W2] Completed job for GEM/2025/B/6903953 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6903953.json
+2025-12-17 12:33:09,356 [INFO] [W1] Starting job for GEM/2025/B/6979980
+2025-12-17 12:33:09,356 [INFO] Job finished: bid=GEM/2025/B/6903953 worker=2 status=True
+2025-12-17 12:33:09,360 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8690287
+2025-12-17 12:33:10,191 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8690287 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6979980.pdf (size=112053)
+2025-12-17 12:33:10,228 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-17 12:33:10,960 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:10,986 [INFO] DB saved for GEM/2025/B/6759971
+2025-12-17 12:33:10,989 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6759971.pdf
+2025-12-17 12:33:10,991 [INFO] [W3] Completed job for GEM/2025/B/6759971 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6759971.json
+2025-12-17 12:33:10,996 [INFO] [W2] Starting job for GEM/2025/B/6982374
+2025-12-17 12:33:10,997 [INFO] Job finished: bid=GEM/2025/B/6759971 worker=3 status=True
+2025-12-17 12:33:11,003 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8692926
+2025-12-17 12:33:11,613 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:11,644 [INFO] DB saved for GEM/2025/B/6980039
+2025-12-17 12:33:11,647 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6980039.pdf
+2025-12-17 12:33:11,647 [INFO] [W5] Completed job for GEM/2025/B/6980039 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6980039.json
+2025-12-17 12:33:11,651 [INFO] [W3] Starting job for GEM/2025/B/6759506
+2025-12-17 12:33:11,651 [INFO] Job finished: bid=GEM/2025/B/6980039 worker=5 status=True
+2025-12-17 12:33:11,654 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8438349
+2025-12-17 12:33:11,866 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8692926 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6982374.pdf (size=106169)
+2025-12-17 12:33:11,892 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-17 12:33:12,507 [INFO] [W4] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:12,547 [INFO] DB saved for GEM/2025/B/6979848
+2025-12-17 12:33:12,550 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6979848.pdf
+2025-12-17 12:33:12,551 [INFO] [W4] Completed job for GEM/2025/B/6979848 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6979848.json
+2025-12-17 12:33:12,555 [INFO] [W4] Starting job for GEM/2025/B/6982946
+2025-12-17 12:33:12,555 [INFO] Job finished: bid=GEM/2025/B/6979848 worker=4 status=True
+2025-12-17 12:33:12,559 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8693550
+2025-12-17 12:33:12,643 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8438349 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6759506.pdf (size=659333)
+2025-12-17 12:33:12,691 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-17 12:33:13,221 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8693550 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6982946.pdf (size=111072)
+2025-12-17 12:33:13,287 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-17 12:33:13,596 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:13,618 [INFO] DB saved for GEM/2025/B/6945901
+2025-12-17 12:33:13,619 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6945901.pdf
+2025-12-17 12:33:13,621 [INFO] [W1] Completed job for GEM/2025/B/6945901 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6945901.json
+2025-12-17 12:33:13,622 [INFO] [W5] Starting job for GEM/2025/B/6581485
+2025-12-17 12:33:13,622 [INFO] Job finished: bid=GEM/2025/B/6945901 worker=1 status=True
+2025-12-17 12:33:13,625 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8234938
+2025-12-17 12:33:14,000 [INFO] [W1] Extractor finished. stdout len=0 stderr len=556
+2025-12-17 12:33:14,004 [WARNING] [W1] Extractor produced no JSON files in D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1
+2025-12-17 12:33:14,009 [ERROR] [W1] Extractor failed for D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6979980.pdf
+2025-12-17 12:33:14,020 [INFO] [W1] Starting job for GEM/2025/B/6967163
+2025-12-17 12:33:14,021 [INFO] Job finished: bid=GEM/2025/B/6979980 worker=1 status=False
+2025-12-17 12:33:14,036 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8675093
+2025-12-17 12:33:14,883 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8675093 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6967163.pdf (size=112716)
+2025-12-17 12:33:14,898 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8234938 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6581485.pdf (size=282419)
+2025-12-17 12:33:14,923 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-17 12:33:14,948 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-17 12:33:24,800 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:24,819 [INFO] DB saved for GEM/2025/B/6982374
+2025-12-17 12:33:24,821 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6982374.pdf
+2025-12-17 12:33:24,822 [INFO] [W2] Completed job for GEM/2025/B/6982374 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6982374.json
+2025-12-17 12:33:24,824 [INFO] [W2] Starting job for GEM/2025/B/6855881
+2025-12-17 12:33:24,824 [INFO] Job finished: bid=GEM/2025/B/6982374 worker=2 status=True
+2025-12-17 12:33:24,825 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8548347
+2025-12-17 12:33:25,636 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8548347 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6855881.pdf (size=147118)
+2025-12-17 12:33:25,687 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-17 12:33:26,101 [INFO] [W4] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:26,121 [INFO] DB saved for GEM/2025/B/6982946
+2025-12-17 12:33:26,123 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6982946.pdf
+2025-12-17 12:33:26,125 [INFO] [W4] Completed job for GEM/2025/B/6982946 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6982946.json
+2025-12-17 12:33:26,127 [INFO] [W3] Starting job for GEM/2025/B/6878050
+2025-12-17 12:33:26,127 [INFO] Job finished: bid=GEM/2025/B/6982946 worker=4 status=True
+2025-12-17 12:33:26,131 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8573789
+2025-12-17 12:33:26,847 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8573789 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6878050.pdf (size=109352)
+2025-12-17 12:33:26,881 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-17 12:33:28,066 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:28,091 [INFO] DB saved for GEM/2025/B/6967163
+2025-12-17 12:33:28,094 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6967163.pdf
+2025-12-17 12:33:28,096 [INFO] [W1] Completed job for GEM/2025/B/6967163 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6967163.json
+2025-12-17 12:33:28,101 [INFO] [W4] Starting job for GEM/2025/B/6967159
+2025-12-17 12:33:28,101 [INFO] Job finished: bid=GEM/2025/B/6967163 worker=1 status=True
+2025-12-17 12:33:28,102 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8675089
+2025-12-17 12:33:28,810 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8675089 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6967159.pdf (size=112176)
+2025-12-17 12:33:28,860 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-17 12:33:41,745 [INFO] [W4] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:41,767 [INFO] DB saved for GEM/2025/B/6967159
+2025-12-17 12:33:41,769 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6967159.pdf
+2025-12-17 12:33:41,770 [INFO] [W4] Completed job for GEM/2025/B/6967159 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6967159.json
+2025-12-17 12:33:41,772 [INFO] [W5] Starting job for GEM/2025/B/6943251
+2025-12-17 12:33:41,772 [INFO] Job finished: bid=GEM/2025/B/6967159 worker=4 status=True
+2025-12-17 12:33:41,777 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8647846
+2025-12-17 12:33:42,427 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:42,446 [INFO] DB saved for GEM/2025/B/6581485
+2025-12-17 12:33:42,447 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6581485.pdf
+2025-12-17 12:33:42,448 [INFO] [W5] Completed job for GEM/2025/B/6581485 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6581485.json
+2025-12-17 12:33:42,449 [INFO] [W1] Starting job for GEM/2025/B/6940732
+2025-12-17 12:33:42,449 [INFO] Job finished: bid=GEM/2025/B/6581485 worker=5 status=True
+2025-12-17 12:33:42,450 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8644991
+2025-12-17 12:33:42,460 [WARNING] [W5] Download attempt 1 failed for https://bidplus.gem.gov.in/showbidDocument/8647846: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W5\\GEM_2025_B_6943251.pdf.part'
+2025-12-17 12:33:43,055 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8644991 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6940732.pdf (size=196283)
+2025-12-17 12:33:43,091 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-17 12:33:43,402 [WARNING] [W5] Download attempt 2 failed for https://bidplus.gem.gov.in/showbidDocument/8647846: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W5\\GEM_2025_B_6943251.pdf.part'
+2025-12-17 12:33:44,582 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:44,599 [INFO] DB saved for GEM/2025/B/6855881
+2025-12-17 12:33:44,603 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6855881.pdf
+2025-12-17 12:33:44,605 [INFO] [W2] Completed job for GEM/2025/B/6855881 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6855881.json
+2025-12-17 12:33:44,608 [INFO] [W2] Starting job for GEM/2025/B/6895557
+2025-12-17 12:33:44,608 [INFO] Job finished: bid=GEM/2025/B/6855881 worker=2 status=True
+2025-12-17 12:33:44,611 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8593517
+2025-12-17 12:33:45,385 [WARNING] [W5] Download attempt 3 failed for https://bidplus.gem.gov.in/showbidDocument/8647846: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W5\\GEM_2025_B_6943251.pdf.part'
+2025-12-17 12:33:45,395 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8593517 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6895557.pdf (size=125251)
+2025-12-17 12:33:45,428 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-17 12:33:46,898 [ERROR] [W5] All download attempts failed for https://bidplus.gem.gov.in/showbidDocument/8647846: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W5\\GEM_2025_B_6943251.pdf.part'
+2025-12-17 12:33:46,903 [ERROR] [W5] Failed to download PDF for GEM/2025/B/6943251
+2025-12-17 12:33:46,905 [INFO] [W3] Starting job for GEM/2025/B/6980221
+2025-12-17 12:33:46,906 [INFO] Job finished: bid=GEM/2025/B/6943251 worker=5 status=False
+2025-12-17 12:33:46,910 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8690559
+2025-12-17 12:33:47,648 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8690559 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6980221.pdf (size=96947)
+2025-12-17 12:33:47,681 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-17 12:33:59,838 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:33:59,860 [INFO] DB saved for GEM/2025/B/6895557
+2025-12-17 12:33:59,863 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6895557.pdf
+2025-12-17 12:33:59,864 [INFO] [W2] Completed job for GEM/2025/B/6895557 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6895557.json
+2025-12-17 12:33:59,869 [INFO] [W4] Starting job for GEM/2025/B/6949405
+2025-12-17 12:33:59,869 [INFO] Job finished: bid=GEM/2025/B/6895557 worker=2 status=True
+2025-12-17 12:33:59,875 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8654851
+2025-12-17 12:34:01,665 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8654851 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6949405.pdf (size=348747)
+2025-12-17 12:34:01,702 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-17 12:34:10,829 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:34:10,851 [INFO] DB saved for GEM/2025/B/6940732
+2025-12-17 12:34:10,853 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6940732.pdf
+2025-12-17 12:34:10,856 [INFO] [W1] Completed job for GEM/2025/B/6940732 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6940732.json
+2025-12-17 12:34:10,858 [INFO] [W5] Starting job for GEM/2025/B/6898947
+2025-12-17 12:34:10,858 [INFO] Job finished: bid=GEM/2025/B/6940732 worker=1 status=True
+2025-12-17 12:34:10,860 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8597466
+2025-12-17 12:34:11,549 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8597466 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6898947.pdf (size=116230)
+2025-12-17 12:34:11,585 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-17 12:34:22,121 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:34:22,143 [INFO] DB saved for GEM/2025/B/6759506
+2025-12-17 12:34:22,146 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6759506.pdf
+2025-12-17 12:34:22,148 [INFO] [W3] Completed job for GEM/2025/B/6759506 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6759506.json
+2025-12-17 12:34:22,155 [INFO] Job finished: bid=GEM/2025/B/6759506 worker=3 status=True
+2025-12-17 12:34:24,786 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:34:24,809 [INFO] DB saved for GEM/2025/B/6898947
+2025-12-17 12:34:24,811 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6898947.pdf
+2025-12-17 12:34:24,812 [INFO] [W5] Completed job for GEM/2025/B/6898947 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6898947.json
+2025-12-17 12:34:24,815 [INFO] Job finished: bid=GEM/2025/B/6898947 worker=5 status=True
+2025-12-17 12:34:31,965 [INFO] [W4] Extractor finished. stdout len=0 stderr len=633
+2025-12-17 12:34:31,985 [INFO] DB saved for GEM/2025/B/6949405
+2025-12-17 12:34:31,987 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6949405.pdf
+2025-12-17 12:34:31,988 [INFO] [W4] Completed job for GEM/2025/B/6949405 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6949405.json
+2025-12-17 12:34:31,990 [INFO] Job finished: bid=GEM/2025/B/6949405 worker=4 status=True
+2025-12-17 12:34:32,684 [INFO] [W3] Extractor finished. stdout len=0 stderr len=960
+2025-12-17 12:34:32,701 [INFO] DB saved for GEM/2025/B/6878050
+2025-12-17 12:34:32,704 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6878050.pdf
+2025-12-17 12:34:32,705 [INFO] [W3] Completed job for GEM/2025/B/6878050 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6878050.json
+2025-12-17 12:34:32,707 [INFO] Job finished: bid=GEM/2025/B/6878050 worker=3 status=True
+2025-12-17 12:34:47,089 [INFO] [W3] Extractor finished. stdout len=0 stderr len=960
+2025-12-17 12:34:47,103 [INFO] DB saved for GEM/2025/B/6980221
+2025-12-17 12:34:47,104 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6980221.pdf
+2025-12-17 12:34:47,105 [INFO] [W3] Completed job for GEM/2025/B/6980221 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6980221.json
+2025-12-17 12:34:47,106 [INFO] Job finished: bid=GEM/2025/B/6980221 worker=3 status=True
+2025-12-17 12:34:47,107 [INFO] Batch complete. Total=20 Success=18 Failed=2
+2025-12-17 12:35:30,635 [INFO] Received signal 2. Will finish current batch then exit.
+2025-12-17 12:35:31,277 [INFO] Received signal 2. Will finish current batch then exit.
+2025-12-17 12:35:31,493 [INFO] Shutdown detected after sleep - breaking
+2025-12-17 12:35:31,495 [INFO] Pipeline exiting cleanly.
+2025-12-23 21:21:39,377 [INFO] Starting tender pipeline. workers=5 fetch_limit=20
+2025-12-23 21:21:39,441 [INFO] Fetched 20 pending tenders; scheduling up to 5 worker threads
+2025-12-23 21:21:39,443 [INFO] [W1] Starting job for GEM/2025/B/6979980
+2025-12-23 21:21:39,444 [INFO] [W2] Starting job for GEM/2025/B/6943251
+2025-12-23 21:21:39,444 [INFO] [W3] Starting job for GEM/2025/B/6898475
+2025-12-23 21:21:39,445 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8690287
+2025-12-23 21:21:39,446 [INFO] [W4] Starting job for GEM/2025/B/6831443
+2025-12-23 21:21:39,447 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8647846
+2025-12-23 21:21:39,447 [INFO] [W5] Starting job for GEM/2025/B/6833384
+2025-12-23 21:21:39,448 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8596888
+2025-12-23 21:21:39,449 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8520252
+2025-12-23 21:21:39,450 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8522403
+2025-12-23 21:21:40,195 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8522403 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6833384.pdf (size=102811)
+2025-12-23 21:21:40,226 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-23 21:21:40,228 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8520252 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6831443.pdf (size=139463)
+2025-12-23 21:21:40,240 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8690287 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6979980.pdf (size=112053)
+2025-12-23 21:21:40,241 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8647846 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6943251.pdf (size=123874)
+2025-12-23 21:21:40,258 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-23 21:21:40,266 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-23 21:21:40,267 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-23 21:21:40,286 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8596888 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6898475.pdf (size=157643)
+2025-12-23 21:21:40,303 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-23 21:21:48,000 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:21:48,015 [INFO] DB saved for GEM/2025/B/6833384
+2025-12-23 21:21:48,017 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6833384.pdf
+2025-12-23 21:21:48,019 [INFO] [W5] Completed job for GEM/2025/B/6833384 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6833384.json
+2025-12-23 21:21:48,021 [INFO] [W1] Starting job for GEM/2025/B/6986163
+2025-12-23 21:21:48,021 [INFO] Job finished: bid=GEM/2025/B/6833384 worker=5 status=True
+2025-12-23 21:21:48,023 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8697083
+2025-12-23 21:21:48,685 [WARNING] [W1] Download attempt 1 failed for https://bidplus.gem.gov.in/showbidDocument/8697083: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W1\\GEM_2025_B_6986163.pdf.part'
+2025-12-23 21:21:48,706 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:21:48,724 [INFO] DB saved for GEM/2025/B/6979980
+2025-12-23 21:21:48,725 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6979980.pdf
+2025-12-23 21:21:48,726 [INFO] [W1] Completed job for GEM/2025/B/6979980 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6979980.json
+2025-12-23 21:21:48,726 [INFO] [W2] Starting job for GEM/2025/B/6830307
+2025-12-23 21:21:48,727 [INFO] Job finished: bid=GEM/2025/B/6979980 worker=1 status=True
+2025-12-23 21:21:48,728 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8518962
+2025-12-23 21:21:49,324 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:21:49,333 [INFO] DB saved for GEM/2025/B/6943251
+2025-12-23 21:21:49,335 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6943251.pdf
+2025-12-23 21:21:49,335 [INFO] [W2] Completed job for GEM/2025/B/6943251 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6943251.json
+2025-12-23 21:21:49,335 [INFO] [W3] Starting job for GEM/2025/B/6901550
+2025-12-23 21:21:49,336 [INFO] Job finished: bid=GEM/2025/B/6943251 worker=2 status=True
+2025-12-23 21:21:49,336 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8600533
+2025-12-23 21:21:49,562 [WARNING] [W1] Download attempt 2 failed for https://bidplus.gem.gov.in/showbidDocument/8697083: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W1\\GEM_2025_B_6986163.pdf.part'
+2025-12-23 21:21:49,599 [WARNING] [W2] Download attempt 1 failed for https://bidplus.gem.gov.in/showbidDocument/8518962: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W2\\GEM_2025_B_6830307.pdf.part'
+2025-12-23 21:21:49,945 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:21:49,957 [INFO] DB saved for GEM/2025/B/6898475
+2025-12-23 21:21:49,958 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6898475.pdf
+2025-12-23 21:21:49,959 [INFO] [W3] Completed job for GEM/2025/B/6898475 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6898475.json
+2025-12-23 21:21:49,961 [INFO] [W4] Starting job for GEM/2025/B/6901592
+2025-12-23 21:21:49,961 [INFO] Job finished: bid=GEM/2025/B/6898475 worker=3 status=True
+2025-12-23 21:21:49,963 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8600583
+2025-12-23 21:21:50,296 [WARNING] [W3] Download attempt 1 failed for https://bidplus.gem.gov.in/showbidDocument/8600533: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W3\\GEM_2025_B_6901550.pdf.part'
+2025-12-23 21:21:50,428 [WARNING] [W2] Download attempt 2 failed for https://bidplus.gem.gov.in/showbidDocument/8518962: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W2\\GEM_2025_B_6830307.pdf.part'
+2025-12-23 21:21:50,526 [INFO] [W4] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:21:50,539 [INFO] DB saved for GEM/2025/B/6831443
+2025-12-23 21:21:50,540 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6831443.pdf
+2025-12-23 21:21:50,540 [INFO] [W4] Completed job for GEM/2025/B/6831443 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6831443.json
+2025-12-23 21:21:50,542 [INFO] [W5] Starting job for GEM/2025/B/6957823
+2025-12-23 21:21:50,542 [INFO] Job finished: bid=GEM/2025/B/6831443 worker=4 status=True
+2025-12-23 21:21:50,543 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8664596
+2025-12-23 21:21:50,697 [WARNING] [W4] Download attempt 1 failed for https://bidplus.gem.gov.in/showbidDocument/8600583: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W4\\GEM_2025_B_6901592.pdf.part'
+2025-12-23 21:21:50,933 [WARNING] [W1] Download attempt 3 failed for https://bidplus.gem.gov.in/showbidDocument/8697083: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W1\\GEM_2025_B_6986163.pdf.part'
+2025-12-23 21:21:51,183 [WARNING] [W3] Download attempt 2 failed for https://bidplus.gem.gov.in/showbidDocument/8600533: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W3\\GEM_2025_B_6901550.pdf.part'
+2025-12-23 21:21:51,267 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8664596 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6957823.pdf (size=106381)
+2025-12-23 21:21:51,286 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-23 21:21:51,543 [WARNING] [W4] Download attempt 2 failed for https://bidplus.gem.gov.in/showbidDocument/8600583: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W4\\GEM_2025_B_6901592.pdf.part'
+2025-12-23 21:21:51,778 [WARNING] [W2] Download attempt 3 failed for https://bidplus.gem.gov.in/showbidDocument/8518962: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W2\\GEM_2025_B_6830307.pdf.part'
+2025-12-23 21:21:52,450 [ERROR] [W1] All download attempts failed for https://bidplus.gem.gov.in/showbidDocument/8697083: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W1\\GEM_2025_B_6986163.pdf.part'
+2025-12-23 21:21:52,452 [ERROR] [W1] Failed to download PDF for GEM/2025/B/6986163
+2025-12-23 21:21:52,453 [INFO] [W1] Starting job for GEM/2025/B/6938905
+2025-12-23 21:21:52,453 [INFO] Job finished: bid=GEM/2025/B/6986163 worker=1 status=False
+2025-12-23 21:21:52,454 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8642944
+2025-12-23 21:21:52,576 [WARNING] [W3] Download attempt 3 failed for https://bidplus.gem.gov.in/showbidDocument/8600533: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W3\\GEM_2025_B_6901550.pdf.part'
+2025-12-23 21:21:52,938 [WARNING] [W4] Download attempt 3 failed for https://bidplus.gem.gov.in/showbidDocument/8600583: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W4\\GEM_2025_B_6901592.pdf.part'
+2025-12-23 21:21:53,200 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8642944 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6938905.pdf (size=103157)
+2025-12-23 21:21:53,220 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-23 21:21:53,292 [ERROR] [W2] All download attempts failed for https://bidplus.gem.gov.in/showbidDocument/8518962: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W2\\GEM_2025_B_6830307.pdf.part'
+2025-12-23 21:21:53,295 [ERROR] [W2] Failed to download PDF for GEM/2025/B/6830307
+2025-12-23 21:21:53,295 [INFO] [W2] Starting job for GEM/2025/B/6762955
+2025-12-23 21:21:53,295 [INFO] Job finished: bid=GEM/2025/B/6830307 worker=2 status=False
+2025-12-23 21:21:53,295 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8442190
+2025-12-23 21:21:54,065 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8442190 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6762955.pdf (size=102956)
+2025-12-23 21:21:54,085 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-23 21:21:54,086 [ERROR] [W3] All download attempts failed for https://bidplus.gem.gov.in/showbidDocument/8600533: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W3\\GEM_2025_B_6901550.pdf.part'
+2025-12-23 21:21:54,089 [ERROR] [W3] Failed to download PDF for GEM/2025/B/6901550
+2025-12-23 21:21:54,090 [INFO] [W3] Starting job for GEM/2025/B/6763555
+2025-12-23 21:21:54,090 [INFO] Job finished: bid=GEM/2025/B/6901550 worker=3 status=False
+2025-12-23 21:21:54,092 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8442839
+2025-12-23 21:21:54,440 [ERROR] [W4] All download attempts failed for https://bidplus.gem.gov.in/showbidDocument/8600583: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W4\\GEM_2025_B_6901592.pdf.part'
+2025-12-23 21:21:54,441 [ERROR] [W4] Failed to download PDF for GEM/2025/B/6901592
+2025-12-23 21:21:54,442 [INFO] [W4] Starting job for GEM/2025/B/6913071
+2025-12-23 21:21:54,442 [INFO] Job finished: bid=GEM/2025/B/6901592 worker=4 status=False
+2025-12-23 21:21:54,443 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8613330
+2025-12-23 21:21:54,918 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8442839 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6763555.pdf (size=110309)
+2025-12-23 21:21:54,936 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-23 21:21:55,505 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8613330 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6913071.pdf (size=105922)
+2025-12-23 21:21:55,529 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-23 21:21:57,348 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:21:57,363 [INFO] DB saved for GEM/2025/B/6957823
+2025-12-23 21:21:57,366 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6957823.pdf
+2025-12-23 21:21:57,366 [INFO] [W5] Completed job for GEM/2025/B/6957823 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6957823.json
+2025-12-23 21:21:57,367 [INFO] [W5] Starting job for GEM/2025/B/6856425
+2025-12-23 21:21:57,367 [INFO] Job finished: bid=GEM/2025/B/6957823 worker=5 status=True
+2025-12-23 21:21:57,368 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8548952
+2025-12-23 21:21:58,132 [INFO] [W5] Downloaded https://bidplus.gem.gov.in/showbidDocument/8548952 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5\GEM_2025_B_6856425.pdf (size=138376)
+2025-12-23 21:21:58,149 [INFO] [W5] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W5 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W5 --extract-workers 1
+2025-12-23 21:21:58,768 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:21:58,780 [INFO] DB saved for GEM/2025/B/6938905
+2025-12-23 21:21:58,781 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6938905.pdf
+2025-12-23 21:21:58,781 [INFO] [W1] Completed job for GEM/2025/B/6938905 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6938905.json
+2025-12-23 21:21:58,785 [INFO] [W1] Starting job for GEM/2025/B/6928990
+2025-12-23 21:21:58,785 [INFO] Job finished: bid=GEM/2025/B/6938905 worker=1 status=True
+2025-12-23 21:21:58,787 [INFO] [W1] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8631760
+2025-12-23 21:21:59,537 [INFO] [W1] Downloaded https://bidplus.gem.gov.in/showbidDocument/8631760 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1\GEM_2025_B_6928990.pdf (size=122494)
+2025-12-23 21:21:59,563 [INFO] [W1] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W1 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W1 --extract-workers 1
+2025-12-23 21:22:00,046 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:22:00,062 [INFO] DB saved for GEM/2025/B/6762955
+2025-12-23 21:22:00,063 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6762955.pdf
+2025-12-23 21:22:00,065 [INFO] [W2] Completed job for GEM/2025/B/6762955 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6762955.json
+2025-12-23 21:22:00,067 [INFO] [W2] Starting job for GEM/2025/B/6893939
+2025-12-23 21:22:00,068 [INFO] Job finished: bid=GEM/2025/B/6762955 worker=2 status=True
+2025-12-23 21:22:00,069 [INFO] [W2] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8591686
+2025-12-23 21:22:00,885 [INFO] [W2] Downloaded https://bidplus.gem.gov.in/showbidDocument/8591686 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2\GEM_2025_B_6893939.pdf (size=119379)
+2025-12-23 21:22:00,912 [INFO] [W2] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W2 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W2 --extract-workers 1
+2025-12-23 21:22:01,290 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:22:01,306 [INFO] DB saved for GEM/2025/B/6763555
+2025-12-23 21:22:01,307 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6763555.pdf
+2025-12-23 21:22:01,308 [INFO] [W3] Completed job for GEM/2025/B/6763555 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6763555.json
+2025-12-23 21:22:01,309 [INFO] [W3] Starting job for GEM/2025/B/6864286
+2025-12-23 21:22:01,309 [INFO] Job finished: bid=GEM/2025/B/6763555 worker=3 status=True
+2025-12-23 21:22:01,310 [INFO] [W3] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8557972
+2025-12-23 21:22:01,434 [INFO] [W4] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:22:01,449 [INFO] DB saved for GEM/2025/B/6913071
+2025-12-23 21:22:01,451 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6913071.pdf
+2025-12-23 21:22:01,451 [INFO] [W4] Completed job for GEM/2025/B/6913071 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6913071.json
+2025-12-23 21:22:01,453 [INFO] [W4] Starting job for GEM/2025/B/6498236
+2025-12-23 21:22:01,453 [INFO] Job finished: bid=GEM/2025/B/6913071 worker=4 status=True
+2025-12-23 21:22:01,453 [INFO] [W4] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8140679
+2025-12-23 21:22:02,133 [INFO] [W3] Downloaded https://bidplus.gem.gov.in/showbidDocument/8557972 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3\GEM_2025_B_6864286.pdf (size=121844)
+2025-12-23 21:22:02,180 [INFO] [W3] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W3 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W3 --extract-workers 1
+2025-12-23 21:22:02,284 [INFO] [W4] Downloaded https://bidplus.gem.gov.in/showbidDocument/8140679 -> D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4\GEM_2025_B_6498236.pdf (size=124211)
+2025-12-23 21:22:02,313 [INFO] [W4] Running extractor: D:\Tender System\TenderSystem - Copy\venv\Scripts\python.exe D:\Tender System\TenderSystem - Copy\extractor\url_pdf_extraction.py --skip-download --pdf-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\pdf_W4 --out-folder D:\Tender System\TenderSystem - Copy\TEMP_WORKERS\out_W4 --extract-workers 1
+2025-12-23 21:22:15,280 [INFO] [W1] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:22:15,297 [INFO] DB saved for GEM/2025/B/6928990
+2025-12-23 21:22:15,298 [INFO] [W1] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6928990.pdf
+2025-12-23 21:22:15,301 [INFO] [W1] Completed job for GEM/2025/B/6928990 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6928990.json
+2025-12-23 21:22:15,301 [INFO] [W5] Starting job for GEM/2025/B/6934291
+2025-12-23 21:22:15,303 [INFO] Job finished: bid=GEM/2025/B/6928990 worker=1 status=True
+2025-12-23 21:22:15,303 [INFO] [W5] PDF URL: https://bidplus.gem.gov.in/showbidDocument/8637676
+2025-12-23 21:22:15,952 [WARNING] [W5] Download attempt 1 failed for https://bidplus.gem.gov.in/showbidDocument/8637676: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W5\\GEM_2025_B_6934291.pdf.part'
+2025-12-23 21:22:16,090 [INFO] [W5] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:22:16,100 [INFO] DB saved for GEM/2025/B/6856425
+2025-12-23 21:22:16,101 [INFO] [W5] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6856425.pdf
+2025-12-23 21:22:16,102 [INFO] [W5] Completed job for GEM/2025/B/6856425 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6856425.json
+2025-12-23 21:22:16,103 [INFO] Job finished: bid=GEM/2025/B/6856425 worker=5 status=True
+2025-12-23 21:22:16,446 [INFO] [W2] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:22:16,461 [INFO] DB saved for GEM/2025/B/6893939
+2025-12-23 21:22:16,462 [INFO] [W2] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6893939.pdf
+2025-12-23 21:22:16,463 [INFO] [W2] Completed job for GEM/2025/B/6893939 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6893939.json
+2025-12-23 21:22:16,466 [INFO] Job finished: bid=GEM/2025/B/6893939 worker=2 status=True
+2025-12-23 21:22:16,785 [WARNING] [W5] Download attempt 2 failed for https://bidplus.gem.gov.in/showbidDocument/8637676: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W5\\GEM_2025_B_6934291.pdf.part'
+2025-12-23 21:22:16,820 [INFO] [W4] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:22:16,834 [INFO] DB saved for GEM/2025/B/6498236
+2025-12-23 21:22:16,835 [INFO] [W4] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6498236.pdf
+2025-12-23 21:22:16,836 [INFO] [W4] Completed job for GEM/2025/B/6498236 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6498236.json
+2025-12-23 21:22:16,838 [INFO] Job finished: bid=GEM/2025/B/6498236 worker=4 status=True
+2025-12-23 21:22:17,205 [INFO] [W3] Extractor finished. stdout len=0 stderr len=633
+2025-12-23 21:22:17,214 [INFO] DB saved for GEM/2025/B/6864286
+2025-12-23 21:22:17,215 [INFO] [W3] Deleted persistent PDF D:\Tender System\TenderSystem - Copy\PDF\GEM_2025_B_6864286.pdf
+2025-12-23 21:22:17,216 [INFO] [W3] Completed job for GEM/2025/B/6864286 -> D:\Tender System\TenderSystem - Copy\OUTPUT\GEM_2025_B_6864286.json
+2025-12-23 21:22:17,216 [INFO] Job finished: bid=GEM/2025/B/6864286 worker=3 status=True
+2025-12-23 21:22:18,143 [WARNING] [W5] Download attempt 3 failed for https://bidplus.gem.gov.in/showbidDocument/8637676: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W5\\GEM_2025_B_6934291.pdf.part'
+2025-12-23 21:22:19,651 [ERROR] [W5] All download attempts failed for https://bidplus.gem.gov.in/showbidDocument/8637676: [Errno 2] No such file or directory: 'D:\\Tender System\\TenderSystem - Copy\\TEMP_WORKERS\\pdf_W5\\GEM_2025_B_6934291.pdf.part'
+2025-12-23 21:22:19,652 [ERROR] [W5] Failed to download PDF for GEM/2025/B/6934291
+2025-12-23 21:22:19,653 [INFO] Job finished: bid=GEM/2025/B/6934291 worker=5 status=False
+2025-12-23 21:22:19,653 [INFO] Batch complete. Total=20 Success=15 Failed=5
+2025-12-23 21:22:24,104 [INFO] Received signal 2. Will finish current batch then exit.
+2025-12-23 21:22:24,713 [INFO] Shutdown detected after sleep - breaking
+2025-12-23 21:22:24,714 [INFO] Pipeline exiting cleanly.
